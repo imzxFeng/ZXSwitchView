@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EF8A875C299CAD258F35388 /* Pods_ZXSwitch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08E9400F8865463AF1D2E369 /* Pods_ZXSwitch.framework */; };
+		CE969ABD242C3DD500DC7130 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE969ABC242C3DD500DC7130 /* AppDelegate.m */; };
+		CE969AC0242C3DD500DC7130 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE969ABF242C3DD500DC7130 /* SceneDelegate.m */; };
+		CE969AC3242C3DD500DC7130 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE969AC2242C3DD500DC7130 /* ViewController.m */; };
+		CE969AC6242C3DD500DC7130 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE969AC4242C3DD500DC7130 /* Main.storyboard */; };
+		CE969AC8242C3DD700DC7130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE969AC7242C3DD700DC7130 /* Assets.xcassets */; };
+		CE969ACB242C3DD700DC7130 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE969AC9242C3DD700DC7130 /* LaunchScreen.storyboard */; };
+		CE969ACE242C3DD700DC7130 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE969ACD242C3DD700DC7130 /* main.m */; };
+		CE969AD6242C3E9D00DC7130 /* ZXSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE969AD5242C3E9D00DC7130 /* ZXSwitchView.m */; };
+		CE969AD9242C425700DC7130 /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE969AD8242C425700DC7130 /* ChildViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08E9400F8865463AF1D2E369 /* Pods_ZXSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZXSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D56ECECA2FEA7D5E39D249 /* Pods-ZXSwitch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXSwitch.release.xcconfig"; path = "Target Support Files/Pods-ZXSwitch/Pods-ZXSwitch.release.xcconfig"; sourceTree = "<group>"; };
+		363770F722037C9ED0DA7924 /* Pods-ZXSwitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXSwitch.debug.xcconfig"; path = "Target Support Files/Pods-ZXSwitch/Pods-ZXSwitch.debug.xcconfig"; sourceTree = "<group>"; };
+		CE969AB8242C3DD500DC7130 /* ZXSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE969ABB242C3DD500DC7130 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE969ABC242C3DD500DC7130 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE969ABE242C3DD500DC7130 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		CE969ABF242C3DD500DC7130 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		CE969AC1242C3DD500DC7130 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE969AC2242C3DD500DC7130 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE969AC5242C3DD500DC7130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE969AC7242C3DD700DC7130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE969ACA242C3DD700DC7130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE969ACC242C3DD700DC7130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE969ACD242C3DD700DC7130 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE969AD4242C3E9D00DC7130 /* ZXSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXSwitchView.h; sourceTree = "<group>"; };
+		CE969AD5242C3E9D00DC7130 /* ZXSwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXSwitchView.m; sourceTree = "<group>"; };
+		CE969AD7242C425700DC7130 /* ChildViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChildViewController.h; sourceTree = "<group>"; };
+		CE969AD8242C425700DC7130 /* ChildViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChildViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE969AB5242C3DD500DC7130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF8A875C299CAD258F35388 /* Pods_ZXSwitch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3463D280825075B5DA69FA7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08E9400F8865463AF1D2E369 /* Pods_ZXSwitch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE969AAF242C3DD500DC7130 = {
+			isa = PBXGroup;
+			children = (
+				CE969ABA242C3DD500DC7130 /* ZXSwitch */,
+				CE969AB9242C3DD500DC7130 /* Products */,
+				E62948EE8D2FC0976DA9AEA4 /* Pods */,
+				3463D280825075B5DA69FA7D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE969AB9242C3DD500DC7130 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE969AB8242C3DD500DC7130 /* ZXSwitch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE969ABA242C3DD500DC7130 /* ZXSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				CE969ABB242C3DD500DC7130 /* AppDelegate.h */,
+				CE969ABC242C3DD500DC7130 /* AppDelegate.m */,
+				CE969ABE242C3DD500DC7130 /* SceneDelegate.h */,
+				CE969ABF242C3DD500DC7130 /* SceneDelegate.m */,
+				CE969AC1242C3DD500DC7130 /* ViewController.h */,
+				CE969AC2242C3DD500DC7130 /* ViewController.m */,
+				CE969AD7242C425700DC7130 /* ChildViewController.h */,
+				CE969AD8242C425700DC7130 /* ChildViewController.m */,
+				CE969AD4242C3E9D00DC7130 /* ZXSwitchView.h */,
+				CE969AD5242C3E9D00DC7130 /* ZXSwitchView.m */,
+				CE969AC4242C3DD500DC7130 /* Main.storyboard */,
+				CE969AC7242C3DD700DC7130 /* Assets.xcassets */,
+				CE969AC9242C3DD700DC7130 /* LaunchScreen.storyboard */,
+				CE969ACC242C3DD700DC7130 /* Info.plist */,
+				CE969ACD242C3DD700DC7130 /* main.m */,
+			);
+			path = ZXSwitch;
+			sourceTree = "<group>";
+		};
+		E62948EE8D2FC0976DA9AEA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				363770F722037C9ED0DA7924 /* Pods-ZXSwitch.debug.xcconfig */,
+				30D56ECECA2FEA7D5E39D249 /* Pods-ZXSwitch.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE969AB7242C3DD500DC7130 /* ZXSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE969AD1242C3DD700DC7130 /* Build configuration list for PBXNativeTarget "ZXSwitch" */;
+			buildPhases = (
+				D08351F05C9588446EEDBFB5 /* [CP] Check Pods Manifest.lock */,
+				CE969AB4242C3DD500DC7130 /* Sources */,
+				CE969AB5242C3DD500DC7130 /* Frameworks */,
+				CE969AB6242C3DD500DC7130 /* Resources */,
+				983217C11A4E76CC97775376 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZXSwitch;
+			productName = ZXSwitch;
+			productReference = CE969AB8242C3DD500DC7130 /* ZXSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE969AB0242C3DD500DC7130 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = my;
+				TargetAttributes = {
+					CE969AB7242C3DD500DC7130 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CE969AB3242C3DD500DC7130 /* Build configuration list for PBXProject "ZXSwitch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE969AAF242C3DD500DC7130;
+			productRefGroup = CE969AB9242C3DD500DC7130 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE969AB7242C3DD500DC7130 /* ZXSwitch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE969AB6242C3DD500DC7130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE969ACB242C3DD700DC7130 /* LaunchScreen.storyboard in Resources */,
+				CE969AC8242C3DD700DC7130 /* Assets.xcassets in Resources */,
+				CE969AC6242C3DD500DC7130 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		983217C11A4E76CC97775376 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZXSwitch/Pods-ZXSwitch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZXSwitch/Pods-ZXSwitch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZXSwitch/Pods-ZXSwitch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D08351F05C9588446EEDBFB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZXSwitch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE969AB4242C3DD500DC7130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE969AC3242C3DD500DC7130 /* ViewController.m in Sources */,
+				CE969ABD242C3DD500DC7130 /* AppDelegate.m in Sources */,
+				CE969ACE242C3DD700DC7130 /* main.m in Sources */,
+				CE969AD6242C3E9D00DC7130 /* ZXSwitchView.m in Sources */,
+				CE969AC0242C3DD500DC7130 /* SceneDelegate.m in Sources */,
+				CE969AD9242C425700DC7130 /* ChildViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE969AC4242C3DD500DC7130 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE969AC5242C3DD500DC7130 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE969AC9242C3DD700DC7130 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE969ACA242C3DD700DC7130 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE969ACF242C3DD700DC7130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE969AD0242C3DD700DC7130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE969AD2242C3DD700DC7130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 363770F722037C9ED0DA7924 /* Pods-ZXSwitch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZXSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = my.ZXSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE969AD3242C3DD700DC7130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30D56ECECA2FEA7D5E39D249 /* Pods-ZXSwitch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZXSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = my.ZXSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE969AB3242C3DD500DC7130 /* Build configuration list for PBXProject "ZXSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE969ACF242C3DD700DC7130 /* Debug */,
+				CE969AD0242C3DD700DC7130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE969AD1242C3DD700DC7130 /* Build configuration list for PBXNativeTarget "ZXSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE969AD2242C3DD700DC7130 /* Debug */,
+				CE969AD3242C3DD700DC7130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE969AB0242C3DD500DC7130 /* Project object */;
+}
